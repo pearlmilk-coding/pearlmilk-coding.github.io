@@ -9,6 +9,7 @@ const ap = new APlayer({
         artist: 'Tokyo Revenger',
         url: 'https://drive.google.com/uc?export=download&id=1xCJbom4L9CJ504MG9MliyPHFF3TmRKU3',
         cover: 'https://p3.music.126.net/AAq1qOhfyrClGK1mg3mGYQ==/18776360067593424.jpg',
+        lrc: "/music/lyrics/Hero-cash.lrc"
       },
       {
         name: '风筝误',
