@@ -5,15 +5,15 @@ const ap = new APlayer({
     theme: '#FADFA3',
     audio: [
       {
-        name: "纸短情长",
-        artist: '徐梦圆',
-        url: 'https://music.163.com/song/media/outer/url?id=516076896.mp3',
+        name: "Hero-cash cash",
+        artist: 'Tokyo Revenger',
+        url: 'https://whyp.it/t/hero-cash-cash-tokyo-revengers-amv-YRQBX',
         cover: 'https://p3.music.126.net/AAq1qOhfyrClGK1mg3mGYQ==/18776360067593424.jpg',
       },
       {
         name: '风筝误',
         artist: '刘珂矣',
-        url: 'https://music.163.com/song/media/outer/url?id=1434570079.mp3',
+        url: 'https://www.youtube.com/watch?v=NrEozdiPOt0',
         cover: 'http://oeff2vktt.bkt.clouddn.com/image/96.jpg',
       }
     ]
