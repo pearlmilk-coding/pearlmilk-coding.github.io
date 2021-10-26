@@ -12,10 +12,10 @@ const ap = new APlayer({
         lrc: "/js/music/lyrics/Hero - Cash Cash Tokyo Revengers {AMV}.lrc"
       },
       {
-        /*name: '',
-        artist: '',
-        url: '',
-        cover: 'http://oeff2vktt.bkt.clouddn.com/image/96.', */
+        name: '人聲-所念皆星河',
+        artist: '房東的貓',
+        url: 'https://drive.google.com/uc?export=download&id=1F44TepMAx9dyiY65KXHIBoMZWbRpRH3K',
+        cover: 'https://drive.google.com/uc?export=download&id=1bEtsHmISmKQ_RiWawbHZLjFzmvb0jwkc', 
       }
     ]
 });
