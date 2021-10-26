@@ -10,7 +10,7 @@ const ap = new APlayer({
         artist: 'Tokyo Revenger',
         url: 'https://drive.google.com/uc?export=download&id=1xCJbom4L9CJ504MG9MliyPHFF3TmRKU3',
         cover: 'https://drive.google.com/uc?export=download&id=1iHAhGd3wpY1yXxBC0PHBPAEbrDDGBllI',
-        lrc: "/js/music/lyrics/Hero - Cash Cash Tokyo Revengers {AMV}.lrc"
+        lrc: "https://drive.google.com/uc?export=download&id=1zdtCvM9zCYAep5_GdaJUOTScx-JI06LS"
       },
       {
         name: '人聲-所念皆星河',
