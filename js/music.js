@@ -10,7 +10,8 @@ const ap = new APlayer({
         artist: 'Tokyo Revenger',
         url: 'https://drive.google.com/uc?export=download&id=1xCJbom4L9CJ504MG9MliyPHFF3TmRKU3',
         cover: 'https://drive.google.com/uc?export=download&id=1iHAhGd3wpY1yXxBC0PHBPAEbrDDGBllI',
-        lrc: "https://drive.google.com/uc?export=download&id=1zdtCvM9zCYAep5_GdaJUOTScx-JI06LS"
+        lrc: "https://drive.google.com/uc?export=download&id=1Cd5QHGiQiF3PqYw8i7xnASk-vtvYoM7W"
+        
       },
       {
         name: '人聲-所念皆星河',
