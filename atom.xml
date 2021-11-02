@@ -6,7 +6,7 @@
   <link href="https://pearlmilk-coding.github.io/atom.xml" rel="self"/>
   
   <link href="https://pearlmilk-coding.github.io/"/>
-  <updated>2021-11-02T21:22:55.972Z</updated>
+  <updated>2021-11-02T21:59:38.342Z</updated>
   <id>https://pearlmilk-coding.github.io/</id>
   
   <author>
@@ -21,17 +21,20 @@
     <link href="https://pearlmilk-coding.github.io/2021/11/03/zero_judege_a001/"/>
     <id>https://pearlmilk-coding.github.io/2021/11/03/zero_judege_a001/</id>
     <published>2021-11-02T21:02:10.000Z</published>
-    <updated>2021-11-02T21:22:55.972Z</updated>
+    <updated>2021-11-02T21:59:38.342Z</updated>
     
-    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    <content type="html"><![CDATA[<p>題目: <a href="https://zerojudge.tw/ShowProblem?problemid=a001">https://zerojudge.tw/ShowProblem?problemid=a001</a></p><h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><p>學習所有程式語言的第一個練習題<br>請寫一個程式，可以讀入指定的字串，並且輸出指定的字串。</p><h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a>輸入</h2><p>輸入指定的文字</p><h2 id="輸出"><a href="#輸出" class="headerlink" title="輸出"></a>輸出</h2><p>輸出指定的文字</p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>這就是無底黑洞的起點囉，請享受旅途!</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="built_in">input</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello,&quot;</span>,a)</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;</summary>
+    <summary type="html">&lt;p&gt;題目: &lt;a href=&quot;https://zerojudge.tw/ShowProblem?problemid=a001&quot;&gt;https://zerojudge.tw/ShowProblem?problemid=a001&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;內容&quot;&gt;&lt;a href</summary>
       
     
     
+    
+    <category term="ZeroJudge" scheme="https://pearlmilk-coding.github.io/categories/ZeroJudge/"/>
     
     
   </entry>
