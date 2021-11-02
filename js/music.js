@@ -24,7 +24,8 @@ const ap = new APlayer({
         artist: "純音樂",
         url: "https://drive.google.com/uc?export=download&id=1rAy5kIhbvrTDffuecSRWN5hYQ1-1YcTE",
         cover: "https://drive.google.com/uc?export=download&id=1rSXxEgmMKQltPnj4nScA1JTtTWIgDVaB",
-
+        
       }
+
     ]
 });
