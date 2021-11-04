@@ -6,7 +6,7 @@
   <link href="https://pearlmilk-coding.github.io/atom.xml" rel="self"/>
   
   <link href="https://pearlmilk-coding.github.io/"/>
-  <updated>2021-11-03T19:47:10.175Z</updated>
+  <updated>2021-11-04T23:00:07.945Z</updated>
   <id>https://pearlmilk-coding.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ZeroJudge a009</title>
+    <link href="https://pearlmilk-coding.github.io/2021/11/05/zero_judege_a009/"/>
+    <id>https://pearlmilk-coding.github.io/2021/11/05/zero_judege_a009/</id>
+    <published>2021-11-04T22:45:22.000Z</published>
+    <updated>2021-11-04T23:00:07.945Z</updated>
+    
+    <content type="html"><![CDATA[<p>題目: <a href="https://zerojudge.tw/ShowProblem?problemid=a009">https://zerojudge.tw/ShowProblem?problemid=a009</a></p><h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><p>把明碼的每個字元加上某一個整數K而得到密碼的字元（明碼及密碼字元一定都在ASCII碼中可列印的範圍內）。<br>例如若K=2，那麼apple經過加密後就變成crrng了。解密則是反過來做。這個問題是給你一個密碼字串，請你依照上述的解密方式輸出明碼。</p><p>至於在本任務中K到底是多少，參照Sample Input及Sample Output推出來吧！</p><h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a>輸入</h2><p>輸入共一行，每行含有1個字串，就是需要解密的明碼。</p><h2 id="輸出"><a href="#輸出" class="headerlink" title="輸出"></a>輸出</h2><p>對每一測試資料，請輸出解密後的密碼。</p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>從 輸入J 和 輸出C 的ASCII碼即可推出K = -7</p><p>—–溫馨提示—–<br>字元轉ASCII : ocd()<br>ASCII轉字元 : char()</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="built_in">input</span>()</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(s)):</span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">chr</span>(<span class="built_in">ord</span>(s[i])-<span class="number">7</span>),end=<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>我第一次遇到的ASCII題目，Python 不像 C 一樣可以藉由宣告 char 然後用 %d 的運算，整題的重點就是 ocd ~~啦 </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;題目: &lt;a href=&quot;https://zerojudge.tw/ShowProblem?problemid=a009&quot;&gt;https://zerojudge.tw/ShowProblem?problemid=a009&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;內容&quot;&gt;&lt;a href</summary>
+      
+    
+    
+    
+    <category term="ZeroJudge" scheme="https://pearlmilk-coding.github.io/categories/ZeroJudge/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>ZeroJudge c294</title>
