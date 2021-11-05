@@ -6,7 +6,7 @@
   <link href="https://pearlmilk-coding.github.io/atom.xml" rel="self"/>
   
   <link href="https://pearlmilk-coding.github.io/"/>
-  <updated>2021-11-04T23:41:03.512Z</updated>
+  <updated>2021-11-05T20:44:25.143Z</updated>
   <id>https://pearlmilk-coding.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ZeroJudge e612</title>
+    <link href="https://pearlmilk-coding.github.io/2021/11/06/zero_judege_e612/"/>
+    <id>https://pearlmilk-coding.github.io/2021/11/06/zero_judege_e612/</id>
+    <published>2021-11-05T20:29:33.000Z</published>
+    <updated>2021-11-05T20:44:25.143Z</updated>
+    
+    <content type="html"><![CDATA[<p>題目: <a href="https://zerojudge.tw/ShowProblem?problemid=e612">https://zerojudge.tw/ShowProblem?problemid=e612</a></p><h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><p>每個題目都由一個數字n組成，該數字n用於建立將1和n之間的所有數字連接在一起的大數字。<br>例如：如果n = 6，生成的數字為123456。如果n = 13，生成的數字為12345678910111213。<br>問:這些生成的數字是否可被3整除。</p><h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a>輸入</h2><p>輸入第一行為一個整數T，T代表有幾組測資。<br>每組測資有一個正整數n (1 ≤ n ≤ 10^9)，n如題目所述。<br>輸入指定的文字</p><h2 id="輸出"><a href="#輸出" class="headerlink" title="輸出"></a>輸出</h2><p>對於每組測資<br>如果生成的數字為3的倍數<br>輸出”YES”<br>否則<br>輸出”NO”</p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>觀察規律後可發現當 n % 3 == 0 or 2 為 3 的倍數</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">int</span>(<span class="built_in">input</span>())):</span><br><span class="line">    num = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;YES&quot;</span><span class="keyword">if</span> num%<span class="number">3</span>==<span class="number">0</span> <span class="keyword">or</span> num%<span class="number">3</span>==<span class="number">2</span> <span class="keyword">else</span> (<span class="string">&quot;NO&quot;</span>))</span><br></pre></td></tr></table></figure><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>這一題似水非水，水就在一線之間。<br>藉由這題可以練習if else 的簡化寫法(三元運算式)。<br>這裡就不討論這個，想看看的可以到(網址-還沒寫啦) </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;題目: &lt;a href=&quot;https://zerojudge.tw/ShowProblem?problemid=e612&quot;&gt;https://zerojudge.tw/ShowProblem?problemid=e612&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;內容&quot;&gt;&lt;a href</summary>
+      
+    
+    
+    
+    <category term="ZeroJudge" scheme="https://pearlmilk-coding.github.io/categories/ZeroJudge/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>ZeroJudge a009</title>
