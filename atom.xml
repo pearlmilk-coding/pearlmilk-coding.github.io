@@ -109,19 +109,18 @@
   </entry>
   
   <entry>
-    <title>使用Hexo + Github Pages 來建立自己的網站吧</title>
+    <title>使用Hexo + Github Pages 來建立自己的網站</title>
     <link href="https://pearlmilk-coding.github.io/2021/11/02/about_my_hexo/"/>
     <id>https://pearlmilk-coding.github.io/2021/11/02/about_my_hexo/</id>
     <published>2021-11-02T05:15:04.000Z</published>
-    <updated>2021-11-05T21:17:45.306Z</updated>
+    <updated>2021-11-05T22:23:31.345Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>給當初和我一樣，對網站、紀錄有興趣的人。以及不踩坑就是了~</p><h2 id="Hexo-是什麼-能吃嗎"><a href="#Hexo-是什麼-能吃嗎" class="headerlink" title="Hexo 是什麼? 能吃嗎?"></a>Hexo 是什麼? 能吃嗎?</h2><ul><li>編譯速度棒棒Der!</li><li>支援 Markdown 語法解析文章，並透過主題渲染 “靜態” 檔案</li><li>具有豐富的外掛套件、主題…</li><li>擁有簡易的指令，支援一鍵上傳到Github Pages</li><li>有不少的大神在前方給你靠著</li></ul><h2 id="前置作業"><a href="#前置作業" class="headerlink" title="前置作業"></a>前置作業</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h2 id="為什麼選擇使用-Hexo-靜態框架"><a href="#為什麼選擇使用-Hexo-靜態框架" class="headerlink" title="為什麼選擇使用 Hexo 靜態框架"></a>為什麼選擇使用 Hexo 靜態框架</h2><p>首先，讓我們了解一下什麼是靜態網站<br>靜態網站是由 HTML 代碼格式靜態頁面配合 CSS、Javascript所組成的網站，頁面彼此間都是個別獨立的文件。沒有龐大的數據庫支持，製作和維護的工程量較大，互動性差，功能方面上有一定的限制</p><p>不同於靜態網站，動態網站主要是搭配伺服器與資料庫共同運作，擁有後臺數據庫，互動性強，功能限制少，可以與網頁做互動編譯，動態網頁可依工程師而有Perl、PHP、ASP、JSP、ColdFusion等編譯方式，從而對動態網頁的內容進行改變。<br>現在大多是動態網站，雖然維護工程少，但成本想對的提高不少。<br>儘管成本低，靜態網站依舊無法媲美。動態網站所能實現的效果遠大於靜態網站。但今天不談商業利益，作為紀錄、回憶而言對我來說已經很足夠了</p><p>成本低加上有框架上的支持，markdown 的插件下無論是管理抑或撰寫都相對於無框架的靜態網站，來的有效率</p><h2 id="Hexo-是什麼-能吃嗎"><a href="#Hexo-是什麼-能吃嗎" class="headerlink" title="Hexo 是什麼? 能吃嗎?"></a>Hexo 是什麼? 能吃嗎?</h2><p><code>Hexo</code> 是基於 <code>Node.js</code> 的靜態 Blog 框架，依賴少、便於安裝使用。</p><ul><li>編譯速度棒棒Der!</li><li>支援 Markdown 語法解析文章，並透過主題渲染 “靜態” 檔案</li><li>具有豐富的外掛套件、主題…</li><li>擁有簡易的指令，支援一鍵上傳到Github Pages</li><li>有不少的大神在前方給你靠著</li></ul><h2 id="前置作業-安裝環境準備"><a href="#前置作業-安裝環境準備" class="headerlink" title="前置作業(安裝環境準備)"></a>前置作業(安裝環境準備)</h2><h3 id="安裝需求"><a href="#安裝需求" class="headerlink" title="安裝需求"></a>安裝需求</h3><ul><li><a href="https://nodejs.org/en/">Node.js</a> 提供 npm 來安裝所需的套件，建議選左邊<blockquote><p>若不確定是否成功，可在終端機輸入 npm versin 查看版本</p></blockquote></li></ul><p><img src="https://i.ibb.co/qsNjgYY/node.png" alt="Node官網" title="Node"></p><ul><li><a href="https://git-scm.com/">Git</a></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;給當初和我一樣，對網站、紀錄有興趣的人。以及不踩坑就是了~&lt;/p&gt;
-&lt;h2 id=&quot;Hexo-是什麼-能吃嗎&quot;&gt;&lt;a href=&quot;#Hexo</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h2 id=&quot;為什麼選擇使用-Hexo-靜態框架&quot;&gt;&lt;a href=&quot;#為什麼選擇使用-Hexo-靜態框架&quot; class=&quot;headerlink</summary>
       
     
     
