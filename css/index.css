@@ -2144,7 +2144,7 @@ blockquote footer cite:before {
   flex: 1 auto;
   margin: 0 auto;
   padding: 2rem 15px;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
 }
 @media screen and (max-width: 900px) {
@@ -2321,7 +2321,7 @@ blockquote footer cite:before {
   font-size: 0.93em;
 }
 #recent-posts > .recent-post-item:not(:first-child) {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 #recent-posts > .recent-post-item {
   display: -webkit-box;
