@@ -2,7 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     autoplay: true,
-    theme: '#FADFA3',
+    theme: '#FADFA3,0.7',
     audio: 
     [
       {
