@@ -6,7 +6,7 @@
   <link href="https://pearlmilk-coding.github.io/atom.xml" rel="self"/>
   
   <link href="https://pearlmilk-coding.github.io/"/>
-  <updated>2021-11-06T22:25:00.579Z</updated>
+  <updated>2021-11-07T19:56:13.785Z</updated>
   <id>https://pearlmilk-coding.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ZeroJudge c290</title>
+    <link href="https://pearlmilk-coding.github.io/2021/11/08/zero_judege_c290/"/>
+    <id>https://pearlmilk-coding.github.io/2021/11/08/zero_judege_c290/</id>
+    <published>2021-11-07T19:48:10.000Z</published>
+    <updated>2021-11-07T19:56:13.785Z</updated>
+    
+    <content type="html"><![CDATA[<p>題目: <a href="https://zerojudge.tw/ShowProblem?problemid=c290">https://zerojudge.tw/ShowProblem?problemid=c290</a></p><h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><p>將一個十進位正整數的奇數位數的和稱為A ，偶數位數的和稱為B，則A與B的絕對差值 |A －B| 稱為這個正整數的秘密差。<br>例如： 263541 的奇數位和 A = 6+5+1 =12，偶數位的和 B = 2+3+4 = 9 ，所以 263541 的秘密差是 |12 －9|= 3 。<br>請找出 X的秘密差。</p><h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a>輸入</h2><p>輸入為一行含有一個十進位表示法的正整數X，之後是一個換行字元。</p><h2 id="輸出"><a href="#輸出" class="headerlink" title="輸出"></a>輸出</h2><p>請輸出 X的秘密差 Y(以十進位表示法輸出 )，以換行字元結尾 。</p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>小心不要str index out of range 就好</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="built_in">input</span>()</span><br><span class="line">b=c=<span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="built_in">len</span>(a),<span class="number">2</span>):</span><br><span class="line">    b += <span class="built_in">int</span>(a[i])</span><br><span class="line">    c += <span class="built_in">int</span>(a[i+<span class="number">1</span>]) <span class="keyword">if</span> i+<span class="number">1</span>&lt;<span class="built_in">len</span>(a) <span class="keyword">else</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">max</span>(b,c)-<span class="built_in">min</span>(b,c))</span><br></pre></td></tr></table></figure><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>拿來練習簡化還不錯</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;題目: &lt;a href=&quot;https://zerojudge.tw/ShowProblem?problemid=c290&quot;&gt;https://zerojudge.tw/ShowProblem?problemid=c290&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;內容&quot;&gt;&lt;a href</summary>
+      
+    
+    
+    
+    <category term="ZeroJudge" scheme="https://pearlmilk-coding.github.io/categories/ZeroJudge/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>ZeroJudge g275</title>
     <link href="https://pearlmilk-coding.github.io/2021/11/07/zero_judege_g275/"/>
     <id>https://pearlmilk-coding.github.io/2021/11/07/zero_judege_g275/</id>
     <published>2021-11-06T22:18:11.000Z</published>
-    <updated>2021-11-06T22:25:00.579Z</updated>
+    <updated>2021-11-07T19:47:40.916Z</updated>
     
     <content type="html"><![CDATA[<p>題目: <a href="https://zerojudge.tw/ShowProblem?problemid=g275">https://zerojudge.tw/ShowProblem?problemid=g275</a></p><h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><p>我們把平聲標記為 0 而仄聲標記為 1</p><p>七言對聯有三個限制：<br>A: 二四不同二六同：每一句第二、四個字必須不同平仄，而第二、六個字必須相同平仄<br>B: 仄起平收：第一句的結尾必須為仄聲，第二句的結尾必須為平聲<br>C: 上下相對：第一、二句的第二、四、六個字平仄必須不同</p><p>給你 n 組對聯，分別用0, 1 代表平仄，請輸出它違反了哪幾條規則<br>若以上規則皆無違反，請輸出None</p><h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a>輸入</h2><p>輸入一個正整數 n (1 ≤ n ≤ 30) 代表對聯數量，接下來有 2n 行，每行有 7 個數字，數字不是 0 就是 1</p><h2 id="輸出"><a href="#輸出" class="headerlink" title="輸出"></a>輸出</h2><p>對於每個對聯，輸出一行表示它違反了哪些規則，若三個規則都遵守則輸出 None</p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>依題分為A、B、C來解<br>注意: 輸入時的是str，判斷1、0 時需用’0’、’1’</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">flag=[<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">int</span>(<span class="built_in">input</span>())):</span><br><span class="line">    flag=[<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    a = <span class="built_in">input</span>().split()</span><br><span class="line">    b = <span class="built_in">input</span>().split()</span><br><span class="line"></span><br><span class="line">    flag[<span class="number">0</span>]=<span class="number">1</span> <span class="keyword">if</span>(a[<span class="number">1</span>]==a[<span class="number">3</span>] <span class="keyword">or</span> a[<span class="number">1</span>]!=a[<span class="number">5</span>] <span class="keyword">or</span> b[<span class="number">1</span>]==b[<span class="number">3</span>] <span class="keyword">or</span> b[<span class="number">1</span>]!=b[<span class="number">5</span>])<span class="keyword">else</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    flag[<span class="number">1</span>]=<span class="number">1</span> <span class="keyword">if</span>(a[<span class="number">6</span>]!=<span class="string">&#x27;1&#x27;</span> <span class="keyword">or</span> b[<span class="number">6</span>]!=<span class="string">&#x27;0&#x27;</span>)<span class="keyword">else</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    flag[<span class="number">2</span>]=<span class="number">1</span> <span class="keyword">if</span>(a[<span class="number">1</span>]==b[<span class="number">1</span>] <span class="keyword">or</span> a[<span class="number">3</span>]==b[<span class="number">3</span>] <span class="keyword">or</span> a[<span class="number">5</span>]==b[<span class="number">5</span>])<span class="keyword">else</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(flag[<span class="number">0</span>]==<span class="number">1</span>):<span class="built_in">print</span>(<span class="string">&quot;A&quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span>(flag[<span class="number">1</span>]==<span class="number">1</span>):<span class="built_in">print</span>(<span class="string">&quot;B&quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span>(flag[<span class="number">2</span>]==<span class="number">1</span>):<span class="built_in">print</span>(<span class="string">&quot;C&quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span>(flag[<span class="number">0</span>]==<span class="number">0</span> <span class="keyword">and</span> flag[<span class="number">1</span>]==<span class="number">0</span> <span class="keyword">and</span> flag[<span class="number">2</span>]==<span class="number">0</span>):<span class="built_in">print</span>(<span class="string">&quot;None&quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br></pre></td></tr></table></figure><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>老樣子，不夠簡化，思考ing….<br>日更兩篇，我 == 優秀</p>]]></content>
     
