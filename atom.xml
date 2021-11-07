@@ -6,7 +6,7 @@
   <link href="https://pearlmilk-coding.github.io/atom.xml" rel="self"/>
   
   <link href="https://pearlmilk-coding.github.io/"/>
-  <updated>2021-11-07T19:56:13.785Z</updated>
+  <updated>2021-11-07T20:54:33.450Z</updated>
   <id>https://pearlmilk-coding.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pearlmilk-coding.github.io/2021/11/08/zero_judege_c290/"/>
     <id>https://pearlmilk-coding.github.io/2021/11/08/zero_judege_c290/</id>
     <published>2021-11-07T19:48:10.000Z</published>
-    <updated>2021-11-07T19:56:13.785Z</updated>
+    <updated>2021-11-07T20:54:33.450Z</updated>
     
     <content type="html"><![CDATA[<p>題目: <a href="https://zerojudge.tw/ShowProblem?problemid=c290">https://zerojudge.tw/ShowProblem?problemid=c290</a></p><h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><p>將一個十進位正整數的奇數位數的和稱為A ，偶數位數的和稱為B，則A與B的絕對差值 |A －B| 稱為這個正整數的秘密差。<br>例如： 263541 的奇數位和 A = 6+5+1 =12，偶數位的和 B = 2+3+4 = 9 ，所以 263541 的秘密差是 |12 －9|= 3 。<br>請找出 X的秘密差。</p><h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a>輸入</h2><p>輸入為一行含有一個十進位表示法的正整數X，之後是一個換行字元。</p><h2 id="輸出"><a href="#輸出" class="headerlink" title="輸出"></a>輸出</h2><p>請輸出 X的秘密差 Y(以十進位表示法輸出 )，以換行字元結尾 。</p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>小心不要str index out of range 就好</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="built_in">input</span>()</span><br><span class="line">b=c=<span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="built_in">len</span>(a),<span class="number">2</span>):</span><br><span class="line">    b += <span class="built_in">int</span>(a[i])</span><br><span class="line">    c += <span class="built_in">int</span>(a[i+<span class="number">1</span>]) <span class="keyword">if</span> i+<span class="number">1</span>&lt;<span class="built_in">len</span>(a) <span class="keyword">else</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">max</span>(b,c)-<span class="built_in">min</span>(b,c))</span><br></pre></td></tr></table></figure><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>拿來練習簡化還不錯</p>]]></content>
     
